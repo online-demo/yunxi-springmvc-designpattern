@@ -12,7 +12,7 @@ public class ReflectionDemo {
         User user = new User();
 //        user.name
         Field field = user.getClass().getDeclaredField("name");
-//        field.setAccessible(true);
+        field.setAccessible(true);
         String name = (String) field.get(user);
         System.out.println("userName = " + name);
         field.set(user, "云析学院");
