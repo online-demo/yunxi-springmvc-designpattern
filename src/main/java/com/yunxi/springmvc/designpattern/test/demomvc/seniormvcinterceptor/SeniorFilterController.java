@@ -14,11 +14,13 @@ import javax.servlet.http.HttpServletRequest;
 public class SeniorFilterController {
     /**
      * 过滤方法
-     *
-     * 留个坑：controller里使用private方法会出现什么状况？？？
+     * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+     * ---- 留个坑：controller里使用private方法会出现什么状况？？？---
+     * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
      */
     @RequestMapping("/senior/filter")
     private void filter(HttpServletRequest request) {
         System.out.println(request.getAttribute("filteredContent"));
     }
+
 }

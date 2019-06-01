@@ -6,5 +6,5 @@ package com.yunxi.springmvc.designpattern.test.reflection;
  * @Description:
  */
 public class User {
-        private String name = "无双老师";
+    private String name = "无双老师";
 }
